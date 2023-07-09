@@ -20,7 +20,7 @@ present=cv2.imread('frames/present.png')
 # Loading Encoded files
 import pickle
 
-file=open('encodefile.p','rb')
+file=open('encodefile1.p','rb')
 list_encode_id=pickle.load(file)
 encodlist,ids = list_encode_id
 file.close()
